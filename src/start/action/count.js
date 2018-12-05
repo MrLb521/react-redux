@@ -12,6 +12,8 @@ export const settimeoutAdd = () => {
   };
 };
 
+console.log(555);
+
 export const decrement = () => {
   return {
     type: "DECREMENT"
