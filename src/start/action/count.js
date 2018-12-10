@@ -11,17 +11,8 @@ export const settimeoutAdd = () => {
     }, 1000);
   };
 };
-
-console.log(555);
-
 export const decrement = () => {
   return {
     type: "DECREMENT"
   };
 };
-
-// export const reactsettime = () => {
-//   return {
-//     type: "REACTSETTIME"
-//   };
-// };
