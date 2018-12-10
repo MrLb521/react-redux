@@ -1,5 +1,6 @@
 const initialStart = {
-  count: 0
+  count: 0,
+  
 };
 const count = (start = initialStart, action = {}) => {
   switch (action.type) {
